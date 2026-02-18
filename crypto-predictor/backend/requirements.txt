@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+pandas-ta
+scikit-learn
+requests
+cachetools
+pydantic
+python-dotenv
+httpx
+ccxt
