@@ -34,6 +34,29 @@ A professional-grade full-stack cryptocurrency price prediction web application 
    ```
 3. Open your browser at `http://localhost:3000`.
 
+## 📖 Usage Guide
+
+### 1. Market Dashboard
+- **Coin Selection**: Use the dropdown in the header to switch between supported cryptocurrencies (BTC, ETH, SOL, etc.).
+- **Timeframe Control**: Switch between 1D, 7D, 30D, and 90D views to analyze different historical horizons.
+- **Price Chart**: An interactive candlestick chart shows price action and volume. Hover over candles to see specific OHLCV data.
+- **Indicator Panels**: Monitor real-time RSI and MACD trends in the panels below the main chart.
+
+### 2. Prediction Terminal
+- **System Forecast**: The top-right panel displays the current algorithmic bias (e.g., STRONG BUY, NEUTRAL).
+- **Confidence Level**: Shows the strength of the current signal based on indicator alignment.
+- **Target Range**: Provides a predicted high/low range for the next 24 hours based on ATR (Average True Range).
+- **Signal Cards**: Detailed breakdown of every technical indicator being tracked and its current directional bias (Bullish/Bearish).
+
+### 3. Automated Scalper
+- **Setup**: Click the "SCALPER" tab in the right sidebar.
+- **Configuration**:
+    - Select your **Exchange** (e.g., Binance, Bybit).
+    - Enter your **API Key** and **Secret**.
+    - Toggle **Testnet** (Highly Recommended) to trade with virtual funds.
+- **Execution**: Click **Start Scalper**. The bot will monitor the 1-minute timeframe for EMA crossovers and RSI confirmations.
+- **Logs**: Monitor the real-time execution log at the bottom of the scalper panel to track orders and signals.
+
 ### Local Development
 
 #### Backend
