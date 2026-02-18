@@ -19,6 +19,8 @@ A professional-grade full-stack cryptocurrency price prediction web application 
 
 ## 🏁 Getting Started
 
+To access the terminal, follow these steps:
+
 ### Prerequisites
 
 - Docker and Docker Compose
@@ -27,12 +29,15 @@ A professional-grade full-stack cryptocurrency price prediction web application 
 
 ### Running with Docker
 
-1. Clone the repository.
-2. Run the following command in the root directory:
+1. Navigate to the project directory:
+   ```bash
+   cd crypto-predictor
+   ```
+2. Start the services using Docker Compose:
    ```bash
    docker-compose up --build
    ```
-3. Open your browser at `http://localhost:3000`.
+3. **Access the Web App**: Open your browser and go to **[http://localhost:3000](http://localhost:3000)**.
 
 ## 📖 Usage Guide
 
